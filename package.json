@@ -1,0 +1,28 @@
+{
+  "name": "status_updates",
+  "version": "0.0.0",
+  "description": "First heroku application",
+  "main": "status_update.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/tuftsdev/comp20-digliozzi/tree/master/status_updates"
+  },
+  "keywords": [
+    "status",
+    "updates"
+  ],
+  "author": "David Igliozzi",
+  "license": "TUFTs",
+  "dependencies": {
+    "express": "^3.5.1"
+  }
+}
+
+{
+  "engines": {
+    "node": "0.10.x"
+  }
+}
