@@ -1,26 +1,29 @@
 {
-  "name": "status_updates",
+  "name": "app_example",
   "version": "0.0.0",
-  "description": "First heroku application",
+  "description": "It's an example of an app.",
   "main": "status_update.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/tuftsdev/comp20-digliozzi/tree/master/status_updates"
+    "url": "https://github.com/daveigliozzi/status_update.git"
   },
   "keywords": [
-    "status",
-    "updates"
+    "example",
+    "app"
   ],
-  "author": "David Igliozzi",
-  "license": "TUFTs",
+  "author": "Dave Igliozzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daveigliozzi/status_update/issues"
+  },
+  "homepage": "https://github.com/daveigliozzi/status_update",
   "dependencies": {
     "express": "^3.5.1"
   }
 }
-
 {
   "engines": {
     "node": "0.10.x"
